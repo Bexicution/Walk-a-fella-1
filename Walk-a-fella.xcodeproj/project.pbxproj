@@ -18,10 +18,10 @@
 		049E372024EFD6C2005846C9 /* SessionsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E371F24EFD6C2005846C9 /* SessionsStorage.swift */; };
 		049E372224F1BECB005846C9 /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E372124F1BECB005846C9 /* LeaderboardTableViewCell.swift */; };
 		04DCA59825020933005DD452 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCA59725020933005DD452 /* User.swift */; };
+		08170C482548C6F000784DB4 /* Pods_Walk_a_fella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */; };
 		184A4188252E5B6E008EEF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A4187252E5B6E008EEF8A /* Assets.xcassets */; };
 		184F1B36252D243800666295 /* PTMono.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 184F1B35252D243800666295 /* PTMono.ttc */; };
 		18D34E71252EEF0C00074B35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D34E6D252EED5900074B35 /* SystemConfiguration.framework */; };
-		980E801C0CA34E21782EA47A /* Pods_Walk_a_fella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FA66CC44D655F230FB353E /* Pods_Walk_a_fella.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +38,13 @@
 		049E371F24EFD6C2005846C9 /* SessionsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsStorage.swift; sourceTree = "<group>"; };
 		049E372124F1BECB005846C9 /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
 		04DCA59725020933005DD452 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Walk_a_fella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A4187252E5B6E008EEF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184F1B35252D243800666295 /* PTMono.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTMono.ttc; sourceTree = "<group>"; };
 		18D34E6D252EED5900074B35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		32FA66CC44D655F230FB353E /* Pods_Walk_a_fella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walk_a_fella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BA8F179B01447D804D90739 /* Pods-Walk-a-fella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.release.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.release.xcconfig"; sourceTree = "<group>"; };
-		F249D4399F576BF2B2D96143 /* Pods-Walk-a-fella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.debug.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.debug.xcconfig"; sourceTree = "<group>"; };
+		2AF96053B4F83E711DA85C39 /* Pods-Walk-a-fella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.debug.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BAEB3F9F4769DB9F26567A /* Pods_Walk_a_fella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walk_a_fella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAA69CA2E92282EC5F63225 /* Pods-Walk-a-fella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.release.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08170C482548C6F000784DB4 /* Pods_Walk_a_fella.framework in Frameworks */,
 				18D34E71252EEF0C00074B35 /* SystemConfiguration.framework in Frameworks */,
-				980E801C0CA34E21782EA47A /* Pods_Walk_a_fella.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +142,8 @@
 		925BA8BDD8282EE2CCB57DCC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F249D4399F576BF2B2D96143 /* Pods-Walk-a-fella.debug.xcconfig */,
-				3BA8F179B01447D804D90739 /* Pods-Walk-a-fella.release.xcconfig */,
+				2AF96053B4F83E711DA85C39 /* Pods-Walk-a-fella.debug.xcconfig */,
+				DAAA69CA2E92282EC5F63225 /* Pods-Walk-a-fella.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -150,8 +151,9 @@
 		BC3D7E2C5BF35419FABB6113 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */,
 				18D34E6D252EED5900074B35 /* SystemConfiguration.framework */,
-				32FA66CC44D655F230FB353E /* Pods_Walk_a_fella.framework */,
+				A6BAEB3F9F4769DB9F26567A /* Pods_Walk_a_fella.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041ACFF424EDA24400834852 /* Build configuration list for PBXNativeTarget "Walk-a-fella" */;
 			buildPhases = (
-				BDEF12EFB5D4A5EC126FE7E5 /* [CP] Check Pods Manifest.lock */,
+				6232C350EDA0DD997F30B86F /* [CP] Check Pods Manifest.lock */,
 				041ACFDC24EDA24100834852 /* Sources */,
 				041ACFDD24EDA24100834852 /* Frameworks */,
 				041ACFDE24EDA24100834852 /* Resources */,
-				B4E28C31112A5C7433F1B53D /* [CP] Embed Pods Frameworks */,
-				F3EF9AF024ACB5D696C7D0E3 /* [CP] Copy Pods Resources */,
+				88D0A20B9E97ADE0C444D866 /* [CP] Embed Pods Frameworks */,
+				009CCCDBE50AB623A24D5E3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,24 +231,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B4E28C31112A5C7433F1B53D /* [CP] Embed Pods Frameworks */ = {
+		009CCCDBE50AB623A24D5E3F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BDEF12EFB5D4A5EC126FE7E5 /* [CP] Check Pods Manifest.lock */ = {
+		6232C350EDA0DD997F30B86F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,21 +270,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3EF9AF024ACB5D696C7D0E3 /* [CP] Copy Pods Resources */ = {
+		88D0A20B9E97ADE0C444D866 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -444,7 +446,7 @@
 		};
 		041ACFF524EDA24400834852 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F249D4399F576BF2B2D96143 /* Pods-Walk-a-fella.debug.xcconfig */;
+			baseConfigurationReference = 2AF96053B4F83E711DA85C39 /* Pods-Walk-a-fella.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -466,7 +468,7 @@
 		};
 		041ACFF624EDA24400834852 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA8F179B01447D804D90739 /* Pods-Walk-a-fella.release.xcconfig */;
+			baseConfigurationReference = DAAA69CA2E92282EC5F63225 /* Pods-Walk-a-fella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
