@@ -18,7 +18,6 @@
 		049E372024EFD6C2005846C9 /* SessionsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E371F24EFD6C2005846C9 /* SessionsStorage.swift */; };
 		049E372224F1BECB005846C9 /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E372124F1BECB005846C9 /* LeaderboardTableViewCell.swift */; };
 		04DCA59825020933005DD452 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DCA59725020933005DD452 /* User.swift */; };
-		08170C482548C6F000784DB4 /* Pods_Walk_a_fella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */; };
 		184A4188252E5B6E008EEF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A4187252E5B6E008EEF8A /* Assets.xcassets */; };
 		184F1B36252D243800666295 /* PTMono.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 184F1B35252D243800666295 /* PTMono.ttc */; };
 		18D34E71252EEF0C00074B35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D34E6D252EED5900074B35 /* SystemConfiguration.framework */; };
@@ -38,12 +37,10 @@
 		049E371F24EFD6C2005846C9 /* SessionsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsStorage.swift; sourceTree = "<group>"; };
 		049E372124F1BECB005846C9 /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
 		04DCA59725020933005DD452 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Walk_a_fella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		184A4187252E5B6E008EEF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184F1B35252D243800666295 /* PTMono.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PTMono.ttc; sourceTree = "<group>"; };
 		18D34E6D252EED5900074B35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2AF96053B4F83E711DA85C39 /* Pods-Walk-a-fella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.debug.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.debug.xcconfig"; sourceTree = "<group>"; };
-		A6BAEB3F9F4769DB9F26567A /* Pods_Walk_a_fella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walk_a_fella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAA69CA2E92282EC5F63225 /* Pods-Walk-a-fella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walk-a-fella.release.xcconfig"; path = "Target Support Files/Pods-Walk-a-fella/Pods-Walk-a-fella.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08170C482548C6F000784DB4 /* Pods_Walk_a_fella.framework in Frameworks */,
 				18D34E71252EEF0C00074B35 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +147,7 @@
 		BC3D7E2C5BF35419FABB6113 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08170C472548C6F000784DB4 /* Pods_Walk_a_fella.framework */,
 				18D34E6D252EED5900074B35 /* SystemConfiguration.framework */,
-				A6BAEB3F9F4769DB9F26567A /* Pods_Walk_a_fella.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
